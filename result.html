@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Problem Solving</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"><!--Montersat Font-->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet"> <!--Ubuntu Font -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+      .fnt
+      {
+        font-family: 'Ubuntu', sans-serif;
+      }
+      .headfnt
+      {
+        font-family: 'Montserrat', sans-serif;
+      }
+    </style>
+ 
+  </head>
+  <body style="background-color:#032357">
+  
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+    <header class="site-navbar py-3" role="banner" style="background: #1b1d24;">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-11 col-xl-3">
+            <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0">Tech<span class="text-primary">-A-</span>Thon </a></h1>
+          </div>
+          <div class="col-12 col-md-9 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
+                <li><a href="index.html">Home</a></li>
+                <!-- <li><a href="#rules">Rules</a></li>
+           
+                <li><a href="results.html">Results</a></li> -->
+                <li><a href="#contact">Contacts</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <br><br>
+    <div class="site-section site-hero inner">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-10">
+                      <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="100">Results</h1>
+                      <!-- <h2>Do You See Yourself  <span id="appp"></span></h2><br>
+                      <a href="https://bit.ly/techathon_ps" class="btn-custom" data-aos="fade-up" data-aos-delay="400"><span>Register</span></a> -->
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section" id="rules">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-4 ">
+            <div class="site-section-heading" data-aos="fade-up" data-aos-delay="100">
+              <!-- <h2 class="headfnt"> <strong> Nothing To Show Right Now </strong></h2>
+              <h3 class="headfnt"> <strong> We Will Get Back To You After Conduction Of Events </strong></h3> -->
+            </div>
+          </div>
+          <div class="col-lg-8 mt-8 pl-lg-8" style="padding-top: 12%" data-aos="fade-up" data-aos-delay="200">
+            <h2 class="headfnt"> <strong> Nothing To Show Right Now </strong></h2>
+            <br>
+            <h3 class="headfnt"> <strong> We Will Get Back To You After Conduction Of Events </strong></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer" id="contact">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-4">
+            <h2 class="footer-heading text-uppercase mb-4">About Event</h2>
+            <p>Oppurtunity open for all to showcase your talent and a chance to explore and gain knowledge</p>
+          </div>
+          <div class="col-md-3 ml-auto">
+            <h2 class="footer-heading text-uppercase mb-4">Contact Numbers</h2>
+            <ul class="list-unstyled">
+              <li>Product Development<br><a href="#">8667710302</a></li>
+              <li>Quiz<br><a href="#">8754676367</a></li>
+              <li>Project Presentation<br><a href="#">9841357778</a></li>
+              <li>Problem Solving<br><a href="#">8754206937</a></li>
+            </ul>
+          </div>
+        </div>       
+      </div>
+    </footer>
+
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script>
+  var app = document.getElementById('appp');
+
+var typewriter = new Typewriter(app, {
+    loop: true
+});
+
+typewriter.typeString('a Logic Builder?')
+    .pauseFor(2000)
+    .deleteAll()
+    .typeString('Having The Hunger To Solve Problems?')
+    .pauseFor(2000)
+    .start();
+
+    function w3_open() {
+        document.getElementById("main").style.marginLeft = "25%";
+        document.getElementById("mySidebar").style.width = "25%";
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("openNav").style.display = 'none';
+      }
+      function w3_close() {
+        document.getElementById("main").style.marginLeft = "0%";
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("openNav").style.display = "inline-block";
+      }
+  </script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/aos.js"></script>
+
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
